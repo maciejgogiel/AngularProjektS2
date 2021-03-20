@@ -14,7 +14,7 @@ export class GameComponent implements OnInit {
   @Output() close = new EventEmitter();
   public points = 0;
 
-
+// jak dodac service ??
  // tslint:disable-next-line:variable-name
  public constructor(private _router: Router) { }
 
@@ -33,3 +33,7 @@ this._router.navigate(['/form']);
   }
 
 }
+
+
+
+//

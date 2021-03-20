@@ -22,6 +22,7 @@ export class AppComponent {
   public player: Player;
 
 
+
   public onFormSubmit(playerData) {
     this.player = playerData;
     this.appState = STATES.GAME;
@@ -31,3 +32,4 @@ export class AppComponent {
     this.appState = STATES.INTRO;
   }
 }
+
